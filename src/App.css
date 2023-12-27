@@ -1,0 +1,21 @@
+*{
+    font-family: 'poppins','sans-serif';
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+h2{
+    font-size: 0.75rem;
+    font-weight: normal;
+}
+
+.gray{
+    color: #918E9B;
+}
+
+.bold{
+    font-weight: bold;
+}
