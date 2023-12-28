@@ -1,5 +1,5 @@
 import "./card.css"
-import star from "../assets/images/star.png"
+import star from "/star.png"
 
 export default function Card(props){
     let badgeText
@@ -12,7 +12,7 @@ export default function Card(props){
     return (
         <div className="card">
             {badgeText && <div className="card-badge">{badgeText}</div>}
-            <img src={`./src/assets/images/${props.item.coverImg}`} alt="Katie Zaferes Photo" className="card-img" />
+            <img src={`/${props.item.coverImg}`} alt="Katie Zaferes Photo" className="card-img" />
             <div className="card-stats">
                 <img src={star} alt="Rating Star" className="card-star" />
                 <span>{props.item.stats.rating}</span>

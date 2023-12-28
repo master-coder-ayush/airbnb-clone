@@ -1,4 +1,4 @@
-import hero from "../assets/images/photo-grid.png";
+import hero from "/photo-grid.png";
 import "./hero.css"
 
 export default function Hero(){
