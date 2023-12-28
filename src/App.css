@@ -12,6 +12,10 @@ h2{
     font-weight: normal;
 }
 
+section{
+    padding: 20px;
+}
+
 .gray{
     color: #918E9B;
 }
